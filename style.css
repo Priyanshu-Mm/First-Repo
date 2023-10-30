@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+nav{
+    height: 46px;
+    background-color:  hwb(240 0% 71% / 0.847);
+
+}
+nav p{
+    color: #FFFFFF;
+   font-weight: 400;
+   padding: 12px 81px;
+}
+.mainNav{
+    height: 53px;
+    background-color:  #FFFFFF;
+    border-bottom: 1px solid wheat;
+    display:flex;
+    justify-content: space-evenly;
+    
+}
+.EventoLogo{
+    height: 20px;
+    width: 15px;
+}
+.EventoLogo img{
+    height: 47px;
+    width: 90px;
+}
+/* search bar */
+.searchBar{
+
+    padding-top: 5px;
+    
+}
+.Search{
+    height: 30px;
+    width: 300px;
+    /* border-radius: 10px; */
+    position: relative;
+   
+}
+.searchBar .fa-solid{
+    /* height: 20px;
+    width: 30px; */
+    background-color: #FFFFFF;
+    position: absolute;
+    
+    
+}
+/* learn-logo */
+.learn .fa-solid{
+    height: 10px;
+    padding-top: 10px;
+    padding-left: 7px;
+}
+.Learn{
+    padding-top: 5px;
+    
+}
+.learn:hover{
+.fa-solid{
+    color: blue;
+    
+}
+.Learn{
+
+    color: blue;
+}
+ 
+}
+/* login button */
+.login{
+    padding-top: 10px;
+   
+}
+
+
+.btn{
+    height: 34px;
+    width: 81px;
+    background-color: #0073e6;
+    color: #FFFFFF;
+    border-radius: 16px;
+}
+.login:hover{
+    .btn{
+    background-color: #0073e6c4;
+    color: #0073E6;
+    }
+}
+
+ /* compete logo */
+
+.compete .fa-solid{
+    height: 10px;
+    padding-top: 10px;
+  padding-left: 20px;
+}
+.Compete-link{
+    padding-top: 5px;
+    
+}
+.compete:hover{
+    
+    .fa-solid{
+        color: blue;
+        
+    }
+    .Compete-link{
+    
+        color: blue;
+    }
+}
+
+ /* hero-section */
+ .hero-section{
+    display: flex;
+    height: 80vh;
+    width: 100vw;
+    background-color: aqua;
+ }
+.connecting p {
+   font-size: xxx-large;
+   color: #1c4980;
+   
+}
+.connecting span{
+    font-size: x-large;
+    color: #1c4980;
+    margin-top: 10px;
+}
+.connecting{
+    margin: 100px;
+}
+/* clickable img */
+.clickable-img img{
+height: 200px;
+width: 160px;
+position: sticky;
+padding-top: 10px;
+padding-left: 10px;
+
+
+
+}
+.clickable-img video{
+    height: 200px;
+    width: 200px;
+}
+
+/* .hero-section-img */
+.hero-section-img{
+    height: 40vh;
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+
+    
+}
+.hero-section-img  img{
+  size: 50vw;
+  padding: 0 13px;
+}
+
+/* footer part */
+.foot-panel1{
+    background-color: #063164;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    text-decoration: none;
+    cursor: pointer;
+  
+  }
+
+  /* foot-panel2 */
+  .foot-panel2{
+    background-color: #1c4980;
+    height: 450px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+  
+  }
+  ul p{
+    font-weight: 700;
+    font: size 0.9rem; 
+    margin-top: 45px;
+  }
+  ul a{
+    color: #DDDDDD;
+    display: block;
+    font-size: 1rem;
+    margin-top: 7px;
+    padding: 8px 0;
+
+  }
+  
+
+
